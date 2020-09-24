@@ -9,7 +9,6 @@ def triangles():
 
         x = [y[i] + y[i+1] for i in range(len(y)-1)]
 
-
 n = 0
 results = []
 for t in triangles():
