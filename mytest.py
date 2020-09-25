@@ -1,7 +1,6 @@
 def triangles():
     x = [1]
     while True:
-
         yield x
 
         y = [0] + x + [0]
